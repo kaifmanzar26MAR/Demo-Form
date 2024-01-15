@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+input,textarea{
+  width: 170px;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+lable{
+  font-size: 12px;
+}
+#submit_btn{
+  width: fit-content;
+  border-radius: 2px;
+  background-color: rgb(231, 230, 230);
+  padding: 2px 5px 2px 5px;
+}
+textarea{
+  width: 160px;
+}
+#submit_btn:hover{
+  background-color: rgb(219, 219, 219);
+  border: 1px solid rgb(85, 84, 84);
+}
